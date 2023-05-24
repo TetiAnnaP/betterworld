@@ -100,9 +100,23 @@ body {
         1px 1px 0 #000000;
 }
 
-.girl-image {
+.girl-imade-container {
+    position: relative;
+    /* height: 265px; */
+}
+
+.girl-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-image: url("../images/m-group-girl@1x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 250p;
+    height: 350px;
+    z-index: -1;
+    transform: translate(0, -20%);
+    
 }
 
 .org-info-item:not(:last-child) {
