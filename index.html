@@ -5,57 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      @font-face {
+        font-family: 'FuturaNew';
+        src: url(./fonts/FuturaNewBook-Reg.ttf);
+      }
+
+      @font-face {
+        font-family: 'FUTURAFUTURISC';
+        src: url(./fonts/FUTURAFUTURISC-BOLD.OTF);
+      }
+    </style>
   </head>
   <body>
-    <header></header>
-    <main>
-      <h1 class="hero-title">#bettermarketing</h1>
-      <h2 class="secondary-title">#betterworld</h2>
-      <ul class="org-info-list">
-        <li class='org-info-item'>
-          <h3 class='org-info-subtitle'>We are</h3>
-          <p class='org-info-text'>
-            impactful marketing partner for businesses and non-profit
-            organizations to achieve great results #1 in marketing effectiveness
-            in Ukraine 🇺🇦 among groups (Effie rating 2021) 200+ awards
-          </p>
-        </li>
-        <li class='org-info-item'>
-          <h3 class='org-info-subtitle'>
-            We believe
-            <p class='org-info-text'>
+    <header>
+      <img
+        class="logo-image"
+        src="./images/m-logo@1x.png"
+        alt="logo Bettersvit"
+      />
+    </header>
+    <!-- <main> -->
+
+    <section class="hero-section">
+      <div class="hero-container container">
+        <h1 class="hero-title">#bettermarketing</h1>
+        <h2 class="secondary-title">#betterworld</h2>
+      </div>
+    </section>
+    <div class="girl-imade-container">
+      <img class="girl-image" src="./images/m-group-girl@1x.png" alt="" />
+    </div>
+    <section class="background">
+      <div class="org-container container">
+        <ul class="org-info-list list">
+          <li class="org-info-item">
+            <h3 class="org-info-subtitle">We are</h3>
+            <ul class='we-are list'>
+              <li class='we-are-item'>impactful marketing partner for businesses and non-profit
+              organizations to achieve great results</li>
+               <li class='we-are-item'> <b>#1 in marketing
+              effectiveness in <span class='ua'>Ukraine</span></b> among groups (Effie rating 2021)</li>
+                <li class='we-are-item'><b>200+ awards</b></li>
+            </ul>
+            
+            </p>
+          </li>
+          <li class="org-info-item we-believe">
+            <h3 class="org-info-subtitle">We believe</h3>
+            <p class="org-info-text">
               in power of positive changes, talented people, marvelous design,
               omni-channel approach, modern technologies and continuous learning
             </p>
-          </h3 class='org-info-subtitle'>
-        </li>
-        <li class='org-info-item'>
-          <h3 class='org-info-subtitle'>We do</h3>
-          <p class='org-info-text'>
-            Marketing Consulting 360 Communications Social Impact Campaigns
-            Creative & Design Video & Content Production Digital strategies,
-            SMM, Targeting Influencer Marketing Digital Media & Data, PPC, TV,
-            OOH Metaverse & Midjourney Art Shopper Marketing, NCP, Events
-          </p>
-        </li>
-      </ul>
-    </main>
-    <footer>
-      <p class='footer-title'>We are here</p>
-      <address class='address'>
-        <ul class='address-list'>
-          <li class='address-item'>
-            <p class='address-text'>23/8, Sagaidachnogo Str. Kyiv, Ukraine 🇺🇦 04070</p>
           </li>
-          <li class='address-item'>
-            <a class='email' href="mailto:welcome@bettersvit.com">welcome@bettersvit.com</a>
+          <li class="org-info-item">
+            <h3 class="org-info-subtitle">We do</h3>
+            <ul class='we-do list'>
+              <li>Marketing Consulting</li>
+              <li>360 Communications</li>
+              <li>Social Impact Campaigns</li>
+              <li>Creative & Design</li>
+              <li>Video & Content Production</li>
+              <li> Digital strategies, SMM, Targeting</li>
+              <li>Influencer Marketing</li>
+              <li>Digital Media & Data, PPC, TV, OOH</li>
+              <li>Metaverse & Midjourney Art</li>
+              <li>Shopper Marketing, NCP, Events</li>
+            </ul>
+           
+            </p>
           </li>
         </ul>
-        <ul class='social-list'>
-          <li class='social-item'>facebook</li>
-          <li class='social-item'>instagram</li>
-        </ul>
-      </address>
+      </div>
+    </section>
+    <!-- </main> -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-title">We are here</p>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-item">
+              <div class='social-wrapper'><svg class="address-icon"  width="12"
+              height="12">
+                  <use href='./images/sprite.svg#map-pin'></use>
+                </svg></div>
+              <p class="address-text">
+                
+                23/8, Sagaidachnogo Str. Kyiv, Ukraine 🇺🇦 04070
+              </p>
+            </li>
+            <li class="address-item email-wrapper">
+              <div class='social-wrapper'><svg class="address-icon"  width="12"
+              height="12">
+                  <use href='./images/sprite.svg#mail'></use>
+                </svg></div>
+              <a class="email" href="mailto:welcome@bettersvit.com"
+                >welcome@bettersvit.com</a
+              >
+               <ul class="social-list fb-inst list">
+            <li class="social-item fb-inst"><div class='social-wrapper'><svg class="address-icon"  width="12"
+              height="12">
+                  <use href='./images/sprite.svg#icon-facebook'></use>
+                </svg></div></li>
+            <li class="social-item fb-inst"><div class='social-wrapper'><svg class="address-icon"  width="12"
+              height="12">
+                  <use href='./images/sprite.svg#icon-instagram'></use>
+                </svg></div></li>
+          </ul></li>
+              </ul>
+       
+            
+          
+        </address>
+      </div>
     </footer>
   </body>
 </html>
