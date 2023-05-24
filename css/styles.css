@@ -132,11 +132,15 @@ body {
     line-height: 1.15;
 }
 
-.ua.ua::after {
+/* .ua.ua::after {
     content: "";
     background-image: url("../images/icon-ua.png");
     width: 10px;
     height: 5px;
+} */
+
+.num-1 {
+    width: 220px;
 }
 
 .we-believe {
