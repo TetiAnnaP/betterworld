@@ -163,6 +163,7 @@ body {
     line-height: 1.26;
     margin-bottom: 10px;
     letter-spacing: 0.02em;
+    color: var(--inverse-color);
 }
 
 .address {
