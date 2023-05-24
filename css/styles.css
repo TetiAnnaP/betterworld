@@ -96,15 +96,33 @@ body {
             1px 1px 0 #000000;
 }
 
-.girl-imade-container {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
+/* .girl-image {
+    width: 100%;
+    height: 250p;
+} */
+
+
+.girl-imade-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 260px;
+    width: 100%;
 }
 
 .girl-image {
+    position: absolute;
+   
+    background-image: url("../images/m-group-girl@1x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
     width: 100%;
-    height: 250p;
+    
+    
+
 }
 
 .org-info-item:not(:last-child) {
@@ -122,7 +140,7 @@ body {
 }
 
 .org-info-list {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .org-info-subtitle {
@@ -132,12 +150,17 @@ body {
     line-height: 1.15;
 }
 
-/* .ua.ua::after {
+.ua::after {
     content: "";
-    background-image: url("../images/icon-ua.png");
-    width: 10px;
-    height: 5px;
-} */
+    display: inline-block;
+    background-image: url("../images/ukraine-apple.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+    height: 6px;
+    margin-left: 3px;
+}
 
 .num-1 {
     width: 220px;
@@ -152,8 +175,9 @@ body {
 } */
 
 .footer {
-    background-color: #030303;
-    color: var(--inverse-color);
+    /* background-color: #030303;
+    color: var(--inverse-color); */
+    
 
 }
 
@@ -226,4 +250,26 @@ body {
 
 .social-item.fb-inst {
     margin-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1279px;
+        /* padding-top: 43px; */
+        /* padding-bottom: 43px; */
+        padding-left: 94px;
+    }
+
+        .header-container {
+            padding-top: 43px;
+        }
+
+    .logo-image {
+        width: 271px;
+        height: 93px;
+    }
+
+    .girl-imade-container {
+        display: none;
+    }
 }
