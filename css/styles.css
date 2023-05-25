@@ -116,8 +116,8 @@ body {
   background-size: cover;
   background-position: center;
   display: inline-block;
-  width: 12px;
-  height: 8px;
+  width: 3.75vw;
+  height: 2.5vw;
   margin-left: 3px;
 }
 
@@ -155,7 +155,7 @@ body {
 
 .address-item {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .address-icon {
@@ -167,8 +167,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background-color: #ffffff;
   border-radius: 50%;
   margin-right: 5px;
@@ -237,6 +237,11 @@ body {
     line-height: 1.16;
   }
 
+  .ua::after {
+    width: 1.56vw;
+    height: 1.04vw;
+  }
+
   .we-do {
     column-count: 2;
   }
@@ -266,7 +271,7 @@ body {
 
   .footer-container {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
   }
 
   .address-list {
@@ -323,6 +328,11 @@ body {
 
   .we-are {
     width: auto;
+  }
+
+  .ua::after {
+    width: 0.93vw;
+    height: 0.63vw;
   }
 
   .num-1 {
