@@ -67,7 +67,10 @@ body {
 }
 
 .logo-image {
+  margin-left: -20px;
   margin-bottom: 6px;
+  width: 307px;
+  height: 93px;
 }
 
 .hero-title,
@@ -93,7 +96,7 @@ body {
 }
 
 .org-container {
-  padding-right: 33.5vw;
+  /* padding-right: 33.5vw; */
   margin-bottom: 60px;
 }
 
@@ -110,6 +113,10 @@ body {
   line-height: 1.17;
 }
 
+.num-1 {
+  padding-right: 33.5vw;
+}
+
 .ua::after {
   content: '';
   background-image: url('../images/ukraine-apple.png');
@@ -119,6 +126,10 @@ body {
   width: 3.75vw;
   height: 2.5vw;
   margin-left: 3px;
+}
+
+.we-believe {
+  padding-right: 31.25vw;
 }
 
 .footer-container {
@@ -167,11 +178,16 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
   background-color: #ffffff;
   border-radius: 50%;
   margin-right: 5px;
+}
+
+.address-icon {
+  width: 10px;
+  height: 10px;
 }
 
 .email-wrapper {
@@ -237,13 +253,25 @@ body {
     line-height: 1.16;
   }
 
+  .num-1 {
+    padding-right: 0;
+  }
+
   .ua::after {
     width: 1.56vw;
     height: 1.04vw;
   }
 
+  .we-believe {
+    padding-right: 0;
+  }
+
   .we-do {
     column-count: 2;
+  }
+
+  .we-do-item {
+    padding-right: 200px;
   }
 
   .footer-title {
@@ -272,6 +300,16 @@ body {
   .footer-container {
     display: flex;
     align-items: baseline;
+  }
+
+  .social-wrapper {
+    width: 20px;
+    height: 20px;
+  }
+
+  .address-icon {
+    width: 15px;
+    height: 15px;
   }
 
   .address-list {
@@ -376,6 +414,7 @@ body {
 
   .we-do-item {
     padding-left: 55px;
+    padding-right: 0;
   }
 
   /* .org-info-item:not(:last-child) {
@@ -386,6 +425,16 @@ body {
     padding-left: 34.4vw;
     padding-bottom: 25px;
     margin-top: 14.06vw;
+  }
+
+  .social-wrapper {
+    width: 27px;
+    height: 27px;
+  }
+
+  .address-icon {
+    width: 17px;
+    height: 17px;
   }
 
   .address {
