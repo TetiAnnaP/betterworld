@@ -169,7 +169,8 @@ body {
 } */
 
 .footer-container {
-  padding-bottom: 40px;
+  margin-top: 20vw; /*commit 001*/
+  padding-bottom: 25px; /*commit 001*/
 }
 
 .footer-title {
@@ -283,11 +284,16 @@ body {
   }
 
   .org-container {
-    margin-bottom: 198px;
+    /* margin-bottom: 198px; commit 001 */
   }
 
   .org-info-item:not(:last-child) {
     margin-bottom: 44px;
+  }
+
+  .org-info-item.we-are {
+    /*commit 001 + add class to html */
+    width: 39vw;
   }
 
   .org-info-subtitle {
@@ -362,7 +368,8 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .container {
-    margin-left: auto;
+    /* margin-left: auto; */
+    width: auto;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
@@ -371,6 +378,10 @@ body {
   .header-container {
     padding-left: 55px;
     width: auto;
+  }
+
+  .logo-image {
+    margin-bottom: 0;
   }
 
   /* .header-image {
@@ -412,12 +423,18 @@ body {
 
   .org-container {
     padding-left: 445px;
+    /* margin-right: 0; */
+    margin-bottom: 0;
 
-    margin-bottom: 175px;
+    /* margin-bottom: 175px; */
   }
 
   .org-info-item {
     padding-left: 0;
+  }
+
+  .org-info-item.we-are {
+    width: auto;
   }
 
   .we-are {
@@ -446,7 +463,10 @@ body {
 
   .org-info-list {
     column-count: 2;
-    width: 600px;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.18;
+    /* width: 600px; */
   }
 
   .org-info-item {
@@ -459,9 +479,9 @@ body {
     padding-left: 55px;
   }
 
-  .we-believe {
+  /* .we-believe {
     width: 300px;
-  }
+  } */
 
   .org-info-item:not(:last-child) {
     margin-bottom: 0;
@@ -493,8 +513,8 @@ body {
   .top-wrapper {
     position: relative;
 
-    padding-left: 55px;
-    padding-right: 55px;
+    /* padding-left: 55px;
+    padding-right: 55px; */
 
     width: 100%;
     height: 28.3vw;
@@ -522,6 +542,11 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
+  .org-info-item.we-believe {
+    /*commit 001*/
+    max-width: 63.8vw;
+  }
+
   .top-wrapper {
     position: relative;
 
@@ -529,7 +554,8 @@ body {
     padding-right: 73px; */
 
     width: 100%;
-    height: 28.3vw;
+    /* height: 28.3vw; */
+    height: 38vw; /*commit 001*/
     min-height: 265px;
     background-image: url('../images/d-brush@1x.png');
     background-position: top right;
@@ -540,6 +566,10 @@ body {
   .bottom-wrapper {
     /* padding-left: 73px;
     padding-right: 73px; */
+
+    display: flex; /*commit 001*/
+    flex-direction: column; /*commit 001*/
+    justify-content: flex-end; /*commit 001*/
 
     width: 100%;
 
@@ -602,9 +632,9 @@ body {
     background-size: contain;
   }
 
-  .hero-title {
+  /* .hero-title {
     margin-left: 380px;
-  }
+  } */
 
   .underline {
     margin-left: 380px;
@@ -617,7 +647,7 @@ body {
 
     content: '';
 
-    right: 52px;
+    right: 0; /*commit 001*/
     top: 18.5vw;
 
     width: 52vw;
