@@ -188,7 +188,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 1279px;
     padding-left: 94px;
     padding-right: 0;
   }
@@ -294,7 +293,7 @@ body {
   }
 
   .hero-section {
-    padding-left: 445px;
+    padding-left: 34.4vw;
   }
 
   .hero-title,
@@ -305,7 +304,7 @@ body {
   }
 
   .org-container {
-    padding-left: 445px;
+    padding-left: 34.4vw;
     margin-bottom: 0;
   }
 
@@ -315,6 +314,11 @@ body {
 
   .org-info-item.we-are {
     width: auto;
+  }
+
+  .org-info-item.we-are,
+  .org-info-item.we-believe {
+    width: 24.6vw;
   }
 
   .we-are {
@@ -559,7 +563,6 @@ body {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero-title::before {
-      /* content: ''; */
       background-image: url('../images/d-girl@2x.png');
     }
   }
@@ -568,7 +571,6 @@ body {
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .hero-title::before {
-      /* content: ''; */
       background-image: url('../images/d-girl@3x.png');
     }
   }
@@ -602,7 +604,6 @@ body {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero-title::after {
-      /* content: ''; */
       background-image: url('../images/t-girl@2x.png');
     }
   }
@@ -611,7 +612,6 @@ body {
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .hero-title::after {
-      /* content: ''; */
       background-image: url('../images/t-girl@3x.png');
     }
   }
@@ -640,7 +640,6 @@ body {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .top-wrapper::before {
-      /* content: ''; */
       background-image: url('../images/m-top@2x.png');
     }
   }
@@ -649,7 +648,6 @@ body {
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .top-wrapper::before {
-      /* content: ''; */
       background-image: url('../images/m-top@3x.png');
     }
   }
