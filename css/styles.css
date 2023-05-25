@@ -46,7 +46,7 @@ img {
 }
 
 body {
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   color: var(--main-text-color);
   font-family: FuturaNew;
   font-weight: 400;
@@ -518,9 +518,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-left: 20px;
-    padding-right: 20px;
-
     width: 100%;
     min-height: 560px;
 
