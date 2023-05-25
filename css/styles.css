@@ -288,6 +288,10 @@ body {
     padding-right: 0;
   }
 
+  .org-info-subtitle {
+    font-size: 1.72vw;
+  }
+
   .header-container {
     padding-left: 55px;
     width: auto;
@@ -374,9 +378,9 @@ body {
     padding-left: 55px;
   }
 
-  .org-info-item:not(:last-child) {
+  /* .org-info-item:not(:last-child) {
     margin-bottom: 0;
-  }
+  } */
 
   .footer-container {
     padding-left: 34.4vw;
