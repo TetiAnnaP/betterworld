@@ -67,10 +67,13 @@ body {
 }
 
 .logo-image {
-  margin-left: -20px;
+  margin-left: -10px; 
+  /*commit006*/
   margin-bottom: 6px;
-  width: 145px;
-  height: 50px;
+  /* width: 145px; */
+  width: 45.31vw;
+  /* height: 50px; */
+  height: auto;
 }
 
 .hero-title,
@@ -92,12 +95,12 @@ body {
 }
 
 .org-info-item:not(:last-child) {
-  margin-bottom: 27px;
+  margin-bottom: 8.4vw;
 }
 
 .org-container {
   /* padding-right: 33.5vw; */
-  margin-bottom: 60px;
+  margin-bottom: 5vw; /*commit006*/
 }
 
 .org-info-subtitle {
@@ -114,7 +117,7 @@ body {
 }
 
 .num-1 {
-  padding-right: 33.5vw;
+  padding-right: 31vw;
 }
 
 .ua::after {
@@ -134,7 +137,7 @@ body {
 
 .footer-container {
   margin-top: 20vw; /*commit 001*/
-  padding-bottom: 25px; /*commit 001*/
+  padding-bottom: 7.8vw; /*commit 001*/
 }
 
 .footer-title {
@@ -571,7 +574,7 @@ body {
   .top-wrapper {
     position: relative;
     width: 100%;
-    height: 117.4vw;
+    height: 110vw; /*commit006*/
 
     min-height: 360px;
   }
