@@ -348,6 +348,7 @@ body {
 
   .logo-image {
     margin-bottom: 0;
+    width: 21.17vw;
   }
 
   .hero-section {
@@ -433,9 +434,14 @@ body {
 
   .footer-container {
     padding-left: 34.4vw;
-    padding-bottom: 25px;
+    padding-bottom: 1.95vw;
     margin-top: 14.06vw;
   }
+
+    .footer-title {
+      font-size: 1.56vw;
+   
+    }
 
   .social-wrapper {
     width: 27px;
