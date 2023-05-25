@@ -66,7 +66,7 @@ body {
   width: 100%;
 }
 
-.logo-image {
+picture .logo-image {
   margin-left: -10px;
   /*commit006*/
   margin-bottom: 6px;
@@ -218,7 +218,7 @@ body {
     padding-top: 43px;
   }
 
-  .logo-image {
+  picture .logo-image {
     width: 35.29vw;
     height: auto;
     /* height: 93px; */
@@ -346,7 +346,7 @@ body {
     padding-top: 3.36vw;
   }
 
-  .logo-image {
+  picture .logo-image {
     margin-bottom: 0;
     width: 21.17vw;
   }
@@ -438,10 +438,9 @@ body {
     margin-top: 14.06vw;
   }
 
-    .footer-title {
-      font-size: 1.56vw;
-   
-    }
+  .footer-title {
+    font-size: 1.56vw;
+  }
 
   .social-wrapper {
     width: 27px;
@@ -475,16 +474,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .top-wrapper {
       background-image: url('../images/d-brush@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .top-wrapper {
       background-image: url('../images/d-brush@3x.png');
     }
@@ -505,16 +504,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .bottom-wrapper {
       background-image: url('../images/d-bottom@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .bottom-wrapper {
       background-image: url('../images/d-bottom@3x.png');
     }
@@ -539,16 +538,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .top-wrapper {
       background-image: url('../images/d-brush@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .top-wrapper {
       background-image: url('../images/d-brush@3x.png');
     }
@@ -571,16 +570,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .bottom-wrapper {
       background-image: url('../images/t-bottom@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .bottom-wrapper {
       background-image: url('../images/t-bottom@3x.png');
     }
@@ -611,16 +610,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .bottom-wrapper {
       background-image: url('../images/m-bottom@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .bottom-wrapper {
       background-image: url('../images/m-bottom@3x.png');
     }
@@ -647,16 +646,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .hero-title::before {
       background-image: url('../images/d-girl@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .hero-title::before {
       background-image: url('../images/d-girl@3x.png');
     }
@@ -689,16 +688,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .hero-title::after {
       background-image: url('../images/t-girl@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .hero-title::after {
       background-image: url('../images/t-girl@3x.png');
     }
@@ -725,16 +724,16 @@ body {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     .top-wrapper::before {
       background-image: url('../images/m-top@2x.png');
     }
   }
 
   @media screen and (min-device-pixel-ratio: 3),
-  screen and (min-resolution: 288dpi),
-  screen and (min-resolution: 3dppx) {
+    screen and (min-resolution: 288dpi),
+    screen and (min-resolution: 3dppx) {
     .top-wrapper::before {
       background-image: url('../images/m-top@3x.png');
     }

@@ -27,16 +27,33 @@
     <div class="container-picture">
       <div class="top-wrapper">
         <header class="header-container container">
-          <img
-            srcset="
-              ./images/dt-logo@1x.png 1x,
-              ./images/dt-logo@2x.png 2x,
-              ./images/dt-logo@3x.png 3x
-            "
-            src="./images/d-logo@1x.png"
-            alt="logo Bettersvit"
-            class="logo-image"
-          />
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./images/m-logo@1x.png 1x,
+                ./images/m-logo@2x.png 2x,
+                ./images/m-logo@3x.png 3x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/dt-logo@1x.png 1x,
+                ./images/dt-logo@2x.png 2x,
+                ./images/dt-logo@3x.png 3x
+              "
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./images/dt-logo@1x.png 1x,
+                ./images/dt-logo@2x.png 2x,
+                ./images/dt-logo@3x.png 3x
+              "
+            />
+            <img src="./images/dt-logo@1x.png" alt="Logo" class="logo-image" />
+          </picture>
         </header>
 
         <section class="hero-section">
