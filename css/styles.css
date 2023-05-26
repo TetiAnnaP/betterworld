@@ -46,7 +46,6 @@ img {
 }
 
 body {
-  /* background-color: var(--bg-color); */
   color: var(--main-text-color);
   font-family: FuturaNew;
   font-weight: 400;
@@ -68,11 +67,8 @@ body {
 
 picture .logo-image {
   margin-left: -10px;
-  /*commit006*/
   margin-bottom: 6px;
-  /* width: 145px; */
   width: 45.31vw;
-  /* height: 50px; */
   height: auto;
 }
 
@@ -99,9 +95,7 @@ picture .logo-image {
 }
 
 .org-container {
-  /* padding-right: 33.5vw; */
   margin-bottom: 5vw;
-  /*commit006*/
 }
 
 .org-info-subtitle {
@@ -138,9 +132,7 @@ picture .logo-image {
 
 .footer-container {
   margin-top: 20vw;
-  /*commit 001*/
   padding-bottom: 7.8vw;
-  /*commit 001*/
 }
 
 .footer-title {
@@ -221,7 +213,6 @@ picture .logo-image {
   picture .logo-image {
     width: 35.29vw;
     height: auto;
-    /* height: 93px; */
     margin-bottom: 30px;
     margin-left: -20px;
   }
@@ -275,7 +266,8 @@ picture .logo-image {
   }
 
   .we-do {
-    column-count: 2;
+    -moz-column-count: 2;
+         column-count: 2;
   }
 
   .we-do-item {
@@ -395,7 +387,8 @@ picture .logo-image {
 
   .we-do {
     width: auto;
-    column-count: auto;
+    -moz-column-count: auto;
+         column-count: auto;
   }
 
   .we-do::before {
@@ -411,7 +404,8 @@ picture .logo-image {
 
   .org-info-list {
     width: 47.34vw;
-    column-count: 2;
+    -moz-column-count: 2;
+         column-count: 2;
     font-weight: 400;
     font-size: 1.25vw;
     line-height: 1.18;
@@ -427,10 +421,6 @@ picture .logo-image {
     padding-left: 55px;
     padding-right: 0;
   }
-
-  /* .org-info-item:not(:last-child) {
-    margin-bottom: 0;
-  } */
 
   .footer-container {
     padding-left: 34.4vw;
@@ -474,6 +464,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .top-wrapper {
@@ -482,6 +473,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .top-wrapper {
@@ -504,6 +496,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .bottom-wrapper {
@@ -512,6 +505,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .bottom-wrapper {
@@ -529,7 +523,6 @@ picture .logo-image {
     position: relative;
     width: 100%;
     height: 38vw;
-    /*commit 001*/
     min-height: 265px;
     background-image: url('../images/dt-brush@1x.png');
     background-position: top right;
@@ -538,6 +531,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .top-wrapper {
@@ -546,6 +540,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .top-wrapper {
@@ -555,11 +550,8 @@ picture .logo-image {
 
   .bottom-wrapper {
     display: flex;
-    /*commit 001*/
     flex-direction: column;
-    /*commit 001*/
     justify-content: flex-end;
-    /*commit 001*/
 
     width: 100%;
     min-height: 735px;
@@ -570,6 +562,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .bottom-wrapper {
@@ -578,6 +571,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .bottom-wrapper {
@@ -591,7 +585,6 @@ picture .logo-image {
     position: relative;
     width: 100%;
     height: 110vw;
-    /*commit006*/
 
     min-height: 360px;
   }
@@ -610,6 +603,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .bottom-wrapper {
@@ -618,6 +612,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .bottom-wrapper {
@@ -646,6 +641,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero-title::before {
@@ -654,6 +650,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .hero-title::before {
@@ -673,7 +670,6 @@ picture .logo-image {
     content: '';
 
     right: 0;
-    /*commit 001*/
     top: 18.5vw;
 
     width: 52vw;
@@ -688,6 +684,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero-title::after {
@@ -696,6 +693,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .hero-title::after {
@@ -724,6 +722,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 2),
+    screen and (-webkit-min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .top-wrapper::before {
@@ -732,6 +731,7 @@ picture .logo-image {
   }
 
   @media screen and (min-device-pixel-ratio: 3),
+    screen and (-webkit-min-device-pixel-ratio: 3),
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .top-wrapper::before {
