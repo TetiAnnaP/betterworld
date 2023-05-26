@@ -467,7 +467,7 @@ picture .logo-image {
     height: 25.3vw;
     min-height: 265px;
 
-    background-image: url('../images/d-brush@1x.png');
+    background-image: url('../images/dt-brush@1x.png');
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 18%;
@@ -477,7 +477,7 @@ picture .logo-image {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .top-wrapper {
-      background-image: url('../images/d-brush@2x.png');
+      background-image: url('../images/dt-brush@2x.png');
     }
   }
 
@@ -485,7 +485,7 @@ picture .logo-image {
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .top-wrapper {
-      background-image: url('../images/d-brush@3x.png');
+      background-image: url('../images/dt-brush@3x.png');
     }
   }
 
@@ -531,7 +531,7 @@ picture .logo-image {
     height: 38vw;
     /*commit 001*/
     min-height: 265px;
-    background-image: url('../images/d-brush@1x.png');
+    background-image: url('../images/dt-brush@1x.png');
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 30%;
@@ -541,7 +541,7 @@ picture .logo-image {
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .top-wrapper {
-      background-image: url('../images/d-brush@2x.png');
+      background-image: url('../images/dt-brush@2x.png');
     }
   }
 
@@ -549,7 +549,7 @@ picture .logo-image {
     screen and (min-resolution: 288dpi),
     screen and (min-resolution: 3dppx) {
     .top-wrapper {
-      background-image: url('../images/d-brush@3x.png');
+      background-image: url('../images/dt-brush@3x.png');
     }
   }
 
