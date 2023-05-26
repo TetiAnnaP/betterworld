@@ -20,7 +20,9 @@
 }
 
 .link {
+  display: block;
   text-decoration: none;
+  color: var(--inverse-color);
 }
 
 h1,
@@ -153,6 +155,10 @@ picture .logo-image {
   line-height: 1.16;
 }
 
+.address .link {
+  display: flex;
+}
+
 .email {
   color: var(--inverse-color);
   text-decoration: none;
@@ -176,16 +182,16 @@ picture .logo-image {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  width: 15px;
-  height: 15px;
+  width: 4.6vw;
+  height: 4.6vw;
   background-color: #ffffff;
   border-radius: 50%;
   margin-right: 5px;
 }
 
 .address-icon {
-  width: 10px;
-  height: 10px;
+  width: 3.1vw;
+  height: 3.1vw;
 }
 
 .email-wrapper {
@@ -267,7 +273,7 @@ picture .logo-image {
 
   .we-do {
     -moz-column-count: 2;
-         column-count: 2;
+    column-count: 2;
   }
 
   .we-do-item {
@@ -293,24 +299,29 @@ picture .logo-image {
     margin-right: 15px;
   }
 
+  .address .link {
+    align-items: center;
+  }
+
   .address-item:not(:last-child) {
     margin-bottom: 0;
   }
 
   .footer-container {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
+    justify-content: flex-start;
     padding-bottom: 5.73vw;
   }
 
   .social-wrapper {
-    width: 20px;
-    height: 20px;
+    width: 2.6vw;
+    height: 2.6vw;
   }
 
   .address-icon {
-    width: 15px;
-    height: 15px;
+    width: 1.95vw;
+    height: 1.95vw;
   }
 
   .address-list {
@@ -388,7 +399,7 @@ picture .logo-image {
   .we-do {
     width: auto;
     -moz-column-count: auto;
-         column-count: auto;
+    column-count: auto;
   }
 
   .we-do::before {
@@ -405,7 +416,7 @@ picture .logo-image {
   .org-info-list {
     width: 47.34vw;
     -moz-column-count: 2;
-         column-count: 2;
+    column-count: 2;
     font-weight: 400;
     font-size: 1.25vw;
     line-height: 1.18;
@@ -433,19 +444,23 @@ picture .logo-image {
   }
 
   .social-wrapper {
-    width: 27px;
-    height: 27px;
+    width: 2.1vw;
+    height: 2.1vw;
   }
 
   .address-icon {
-    width: 17px;
-    height: 17px;
+    width: 1.32vw;
+    height: 1.32vw;
   }
 
   .address {
     font-weight: 450;
     font-size: 1.25vw;
     line-height: 1.25;
+  }
+
+  .address .link {
+    align-items: flex-end;
   }
 }
 
