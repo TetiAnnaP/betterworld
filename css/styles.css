@@ -178,7 +178,7 @@ picture .logo-image {
 }
 
 .social-wrapper {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
